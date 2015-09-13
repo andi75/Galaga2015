@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78E38401BA54C4000A971FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E383F1BA54C4000A971FC /* AppDelegate.swift */; };
+		F78E38421BA54C4000A971FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E38411BA54C4000A971FC /* ViewController.swift */; };
+		F78E38451BA54C4000A971FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78E38431BA54C4000A971FC /* Main.storyboard */; };
+		F78E38471BA54C4000A971FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78E38461BA54C4000A971FC /* Images.xcassets */; };
+		F78E384A1BA54C4000A971FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78E38481BA54C4000A971FC /* LaunchScreen.xib */; };
+		F78E38561BA54C4000A971FC /* Galaga2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E38551BA54C4000A971FC /* Galaga2015Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F78E38501BA54C4000A971FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78E38321BA54C4000A971FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78E38391BA54C4000A971FC;
+			remoteInfo = Galaga2015;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F78E383A1BA54C4000A971FC /* Galaga2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Galaga2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78E383E1BA54C4000A971FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78E383F1BA54C4000A971FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F78E38411BA54C4000A971FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F78E38441BA54C4000A971FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F78E38461BA54C4000A971FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F78E38491BA54C4000A971FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F78E384F1BA54C4000A971FC /* Galaga2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Galaga2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78E38541BA54C4000A971FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78E38551BA54C4000A971FC /* Galaga2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaga2015Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78E38371BA54C4000A971FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78E384C1BA54C4000A971FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78E38311BA54C4000A971FC = {
+			isa = PBXGroup;
+			children = (
+				F78E383C1BA54C4000A971FC /* Galaga2015 */,
+				F78E38521BA54C4000A971FC /* Galaga2015Tests */,
+				F78E383B1BA54C4000A971FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78E383B1BA54C4000A971FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78E383A1BA54C4000A971FC /* Galaga2015.app */,
+				F78E384F1BA54C4000A971FC /* Galaga2015Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78E383C1BA54C4000A971FC /* Galaga2015 */ = {
+			isa = PBXGroup;
+			children = (
+				F78E383F1BA54C4000A971FC /* AppDelegate.swift */,
+				F78E38411BA54C4000A971FC /* ViewController.swift */,
+				F78E38431BA54C4000A971FC /* Main.storyboard */,
+				F78E38461BA54C4000A971FC /* Images.xcassets */,
+				F78E38481BA54C4000A971FC /* LaunchScreen.xib */,
+				F78E383D1BA54C4000A971FC /* Supporting Files */,
+			);
+			path = Galaga2015;
+			sourceTree = "<group>";
+		};
+		F78E383D1BA54C4000A971FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F78E383E1BA54C4000A971FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F78E38521BA54C4000A971FC /* Galaga2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F78E38551BA54C4000A971FC /* Galaga2015Tests.swift */,
+				F78E38531BA54C4000A971FC /* Supporting Files */,
+			);
+			path = Galaga2015Tests;
+			sourceTree = "<group>";
+		};
+		F78E38531BA54C4000A971FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F78E38541BA54C4000A971FC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78E38391BA54C4000A971FC /* Galaga2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78E38591BA54C4000A971FC /* Build configuration list for PBXNativeTarget "Galaga2015" */;
+			buildPhases = (
+				F78E38361BA54C4000A971FC /* Sources */,
+				F78E38371BA54C4000A971FC /* Frameworks */,
+				F78E38381BA54C4000A971FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Galaga2015;
+			productName = Galaga2015;
+			productReference = F78E383A1BA54C4000A971FC /* Galaga2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F78E384E1BA54C4000A971FC /* Galaga2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78E385C1BA54C4000A971FC /* Build configuration list for PBXNativeTarget "Galaga2015Tests" */;
+			buildPhases = (
+				F78E384B1BA54C4000A971FC /* Sources */,
+				F78E384C1BA54C4000A971FC /* Frameworks */,
+				F78E384D1BA54C4000A971FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78E38511BA54C4000A971FC /* PBXTargetDependency */,
+			);
+			name = Galaga2015Tests;
+			productName = Galaga2015Tests;
+			productReference = F78E384F1BA54C4000A971FC /* Galaga2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78E38321BA54C4000A971FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Andreas Umbach";
+				TargetAttributes = {
+					F78E38391BA54C4000A971FC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F78E384E1BA54C4000A971FC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F78E38391BA54C4000A971FC;
+					};
+				};
+			};
+			buildConfigurationList = F78E38351BA54C4000A971FC /* Build configuration list for PBXProject "Galaga2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78E38311BA54C4000A971FC;
+			productRefGroup = F78E383B1BA54C4000A971FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78E38391BA54C4000A971FC /* Galaga2015 */,
+				F78E384E1BA54C4000A971FC /* Galaga2015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78E38381BA54C4000A971FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78E38451BA54C4000A971FC /* Main.storyboard in Resources */,
+				F78E384A1BA54C4000A971FC /* LaunchScreen.xib in Resources */,
+				F78E38471BA54C4000A971FC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78E384D1BA54C4000A971FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78E38361BA54C4000A971FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78E38421BA54C4000A971FC /* ViewController.swift in Sources */,
+				F78E38401BA54C4000A971FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78E384B1BA54C4000A971FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78E38561BA54C4000A971FC /* Galaga2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F78E38511BA54C4000A971FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78E38391BA54C4000A971FC /* Galaga2015 */;
+			targetProxy = F78E38501BA54C4000A971FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F78E38431BA54C4000A971FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78E38441BA54C4000A971FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F78E38481BA54C4000A971FC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F78E38491BA54C4000A971FC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F78E38571BA54C4000A971FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78E38581BA54C4000A971FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78E385A1BA54C4000A971FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Galaga2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F78E385B1BA54C4000A971FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Galaga2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F78E385D1BA54C4000A971FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Galaga2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galaga2015.app/Galaga2015";
+			};
+			name = Debug;
+		};
+		F78E385E1BA54C4000A971FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Galaga2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galaga2015.app/Galaga2015";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78E38351BA54C4000A971FC /* Build configuration list for PBXProject "Galaga2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78E38571BA54C4000A971FC /* Debug */,
+				F78E38581BA54C4000A971FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78E38591BA54C4000A971FC /* Build configuration list for PBXNativeTarget "Galaga2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78E385A1BA54C4000A971FC /* Debug */,
+				F78E385B1BA54C4000A971FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F78E385C1BA54C4000A971FC /* Build configuration list for PBXNativeTarget "Galaga2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78E385D1BA54C4000A971FC /* Debug */,
+				F78E385E1BA54C4000A971FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78E38321BA54C4000A971FC /* Project object */;
+}
