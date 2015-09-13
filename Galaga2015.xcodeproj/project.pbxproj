@@ -13,6 +13,8 @@
 		F78E38471BA54C4000A971FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78E38461BA54C4000A971FC /* Images.xcassets */; };
 		F78E384A1BA54C4000A971FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78E38481BA54C4000A971FC /* LaunchScreen.xib */; };
 		F78E38561BA54C4000A971FC /* Galaga2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E38551BA54C4000A971FC /* Galaga2015Tests.swift */; };
+		F78E38601BA54C7A00A971FC /* GalagaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E385F1BA54C7A00A971FC /* GalagaScene.swift */; };
+		F78E38621BA54D2200A971FC /* GalagaDPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E38611BA54D2200A971FC /* GalagaDPad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F78E384F1BA54C4000A971FC /* Galaga2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Galaga2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78E38541BA54C4000A971FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78E38551BA54C4000A971FC /* Galaga2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaga2015Tests.swift; sourceTree = "<group>"; };
+		F78E385F1BA54C7A00A971FC /* GalagaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalagaScene.swift; sourceTree = "<group>"; };
+		F78E38611BA54D2200A971FC /* GalagaDPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalagaDPad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				F78E383F1BA54C4000A971FC /* AppDelegate.swift */,
 				F78E38411BA54C4000A971FC /* ViewController.swift */,
+				F78E385F1BA54C7A00A971FC /* GalagaScene.swift */,
+				F78E38611BA54D2200A971FC /* GalagaDPad.swift */,
 				F78E38431BA54C4000A971FC /* Main.storyboard */,
 				F78E38461BA54C4000A971FC /* Images.xcassets */,
 				F78E38481BA54C4000A971FC /* LaunchScreen.xib */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F78E38421BA54C4000A971FC /* ViewController.swift in Sources */,
+				F78E38621BA54D2200A971FC /* GalagaDPad.swift in Sources */,
 				F78E38401BA54C4000A971FC /* AppDelegate.swift in Sources */,
+				F78E38601BA54C7A00A971FC /* GalagaScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

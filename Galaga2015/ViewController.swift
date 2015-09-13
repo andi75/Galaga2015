@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let scene = GalagaScene()
+        
+        let view = self.view as! SKView
+        view.presentScene(scene)        
     }
 
     override func didReceiveMemoryWarning() {
