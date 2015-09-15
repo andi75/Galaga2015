@@ -9,8 +9,14 @@
 import Foundation
 import SpriteKit
 
+struct DPadSize {
+    let r_rest : CGFloat = 0.2
+    let r_gradient : CGFloat  = 0.6
+}
+
 class GalagaDPad : SKSpriteNode {
-    let r_rest = 10.0
-    let r_full = 50.0
-    let r_gradient = 30.0
+    let dpadSize = DPadSize()
+    var value : CGFloat = 0
+    var dx : CGFloat = 1.0
+    var dy : CGFloat = 0
 }

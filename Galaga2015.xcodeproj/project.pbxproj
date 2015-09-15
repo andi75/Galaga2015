@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E105D1E51BA587CF00E076DC /* TexturePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105D1E41BA587CF00E076DC /* TexturePainter.swift */; };
+		E105D1E71BA5921700E076DC /* GalagaShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105D1E61BA5921700E076DC /* GalagaShip.swift */; };
+		E174A4541BA5CF6700EE46D7 /* GalagaWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174A4531BA5CF6700EE46D7 /* GalagaWave.swift */; };
+		E174A4561BA5D07700EE46D7 /* GalagaSinglePathWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174A4551BA5D07700EE46D7 /* GalagaSinglePathWave.swift */; };
+		E174A4581BA5D15500EE46D7 /* PathFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174A4571BA5D15500EE46D7 /* PathFactory.swift */; };
 		F78E38401BA54C4000A971FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E383F1BA54C4000A971FC /* AppDelegate.swift */; };
 		F78E38421BA54C4000A971FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78E38411BA54C4000A971FC /* ViewController.swift */; };
 		F78E38451BA54C4000A971FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78E38431BA54C4000A971FC /* Main.storyboard */; };
@@ -28,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E105D1E41BA587CF00E076DC /* TexturePainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TexturePainter.swift; sourceTree = "<group>"; };
+		E105D1E61BA5921700E076DC /* GalagaShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalagaShip.swift; sourceTree = "<group>"; };
+		E174A4531BA5CF6700EE46D7 /* GalagaWave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalagaWave.swift; sourceTree = "<group>"; };
+		E174A4551BA5D07700EE46D7 /* GalagaSinglePathWave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalagaSinglePathWave.swift; sourceTree = "<group>"; };
+		E174A4571BA5D15500EE46D7 /* PathFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathFactory.swift; sourceTree = "<group>"; };
 		F78E383A1BA54C4000A971FC /* Galaga2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Galaga2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78E383E1BA54C4000A971FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F78E383F1BA54C4000A971FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,11 +94,16 @@
 				F78E383F1BA54C4000A971FC /* AppDelegate.swift */,
 				F78E38411BA54C4000A971FC /* ViewController.swift */,
 				F78E385F1BA54C7A00A971FC /* GalagaScene.swift */,
+				E105D1E61BA5921700E076DC /* GalagaShip.swift */,
 				F78E38611BA54D2200A971FC /* GalagaDPad.swift */,
+				E174A4531BA5CF6700EE46D7 /* GalagaWave.swift */,
+				E174A4551BA5D07700EE46D7 /* GalagaSinglePathWave.swift */,
+				E174A4571BA5D15500EE46D7 /* PathFactory.swift */,
 				F78E38431BA54C4000A971FC /* Main.storyboard */,
 				F78E38461BA54C4000A971FC /* Images.xcassets */,
 				F78E38481BA54C4000A971FC /* LaunchScreen.xib */,
 				F78E383D1BA54C4000A971FC /* Supporting Files */,
+				E105D1E41BA587CF00E076DC /* TexturePainter.swift */,
 			);
 			path = Galaga2015;
 			sourceTree = "<group>";
@@ -167,6 +182,7 @@
 				TargetAttributes = {
 					F78E38391BA54C4000A971FC = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DL48X3MAU5;
 					};
 					F78E384E1BA54C4000A971FC = {
 						CreatedOnToolsVersion = 6.4;
@@ -218,7 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E105D1E71BA5921700E076DC /* GalagaShip.swift in Sources */,
+				E105D1E51BA587CF00E076DC /* TexturePainter.swift in Sources */,
+				E174A4581BA5D15500EE46D7 /* PathFactory.swift in Sources */,
+				E174A4541BA5CF6700EE46D7 /* GalagaWave.swift in Sources */,
 				F78E38421BA54C4000A971FC /* ViewController.swift in Sources */,
+				E174A4561BA5D07700EE46D7 /* GalagaSinglePathWave.swift in Sources */,
 				F78E38621BA54D2200A971FC /* GalagaDPad.swift in Sources */,
 				F78E38401BA54C4000A971FC /* AppDelegate.swift in Sources */,
 				F78E38601BA54C7A00A971FC /* GalagaScene.swift in Sources */,
@@ -350,9 +371,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Galaga2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -360,9 +384,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Galaga2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -419,6 +446,7 @@
 				F78E385B1BA54C4000A971FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F78E385C1BA54C4000A971FC /* Build configuration list for PBXNativeTarget "Galaga2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +455,7 @@
 				F78E385E1BA54C4000A971FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
